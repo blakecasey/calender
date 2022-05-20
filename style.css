@@ -1,0 +1,59 @@
+
+    .calender-body{
+        display: grid;
+        width: 50%;
+        height: 100%;
+        margin:auto;
+        padding:50px;
+        background-color:rgb(66, 149, 160);
+        border: 3px solid grey;
+
+    }
+
+    .calender-weekDays{
+        display: grid;
+        padding: 1%;
+        column-gap: 5%;
+        font-size: 1.5em;
+        text-align: center;
+        color: black;
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .calender-monthDays{
+        display: grid;
+        padding: 1%;
+        column-gap: 4%;
+        row-gap: 2%;
+        font-size: 1.5em;
+        text-align: center;
+        color: black;
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .monthName{
+        color: black;
+        width: 50%;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        font-size: 70px;
+        text-align: center;
+        padding:50px;
+        background-color: rgb(66, 149, 160);
+        width: 50%;
+        margin:auto;
+        border: 3px solid grey;
+    }
+
+    .prev-date, .next-date{
+        opacity: 0.5;
+        border-radius: 10px;
+    }
+    .prevMonth, .nextMonth{
+        padding:10px;
+        margin-top:15px;
+    }
